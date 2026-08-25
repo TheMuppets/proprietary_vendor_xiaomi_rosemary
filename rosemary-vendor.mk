@@ -561,7 +561,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.nvram@1.1-impl \
     libJpgEncPipe \
-    libaedv \
     libapmonitor_vendor \
     libapu_mdw \
     libapusys \
@@ -582,7 +581,6 @@ PRODUCT_PACKAGES += \
     libipsec_ims_shr \
     libjpeg-alpha-oal_vendor \
     libjpeg-alpha_vendor \
-    libladder \
     libmsbc_mtk \
     libmtcloader \
     libmtkcutils \
