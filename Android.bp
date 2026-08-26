@@ -30817,34 +30817,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "rttv",
-    owner: "xiaomi",
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/bin/rttv",
-            ],
-            shared_libs: [
-                "libaedv",
-                "libcutils",
-                "liblog",
-                "libz",
-                "libc",
-                "libdl",
-                "libm",
-                "libc++",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "starter",
     owner: "xiaomi",
     target: {

@@ -1632,7 +1632,6 @@ PRODUCT_PACKAGES += \
     nv_routing \
     nvram_daemon \
     rt5512_calibration \
-    rttv \
     starter \
     stroke \
     teei_daemon \
