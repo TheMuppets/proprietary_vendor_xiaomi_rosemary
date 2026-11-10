@@ -1477,7 +1477,6 @@ PRODUCT_PACKAGES += \
     libvidhance \
     libwa_dof \
     libwa_rtdof \
-    libwifi-hal-mtk \
     libwifitest \
     libwpfa \
     libwvhidl \
